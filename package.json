@@ -1,6 +1,6 @@
 {
   "name": "laloc",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "description": "Simple node CLI tool to run AWS Lambda function locally, unmodified.",
   "files": [
     "lib",
