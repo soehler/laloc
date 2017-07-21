@@ -1,0 +1,45 @@
+{
+  "name": "rlambda",
+  "version": "0.1.0-beta",
+  "description": "Simple node CLI tool to run AWS Lambda function locally, unmodified.",
+  "files": [
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soehler/laloc.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "local",
+    "run",
+    "simple",
+    "global",
+    "cli",
+    "laloc"
+  ],
+  "author": "Sergio Oehler <soehler@truesys.com>",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "uuid": "^3.1.0",
+    "yargs": "^8.0.2"
+  },
+  "bin": {
+    "laloc": "./lib/laloc.js"
+  },
+  "bugs": {
+    "url": "https://github.com/soehler/laloc/issues"
+  },
+  "homepage": "https://github.com/soehler/laloc#readme",
+  "engine": {
+    "node": ">=6.10"
+  }
+}
