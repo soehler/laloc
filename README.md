@@ -44,18 +44,18 @@ Options:
 ```
 
 ### Examples: ###
-```
+```bash
 # Execute lambda function locally loading mylambda function.json event data file authomaticaly.
-> laloc  mylambdafunction.js
+laloc  mylambdafunction.js
 
 # Run function locally loading event data from event.json file.
-> laloc mylambdafunction.js -e event.json
+laloc mylambdafunction.js -e event.json
 
 # Execute function overriding default AWS Lambda 3 seconds timeout.
-> laloc mylambdafunction.js -t 10 
+laloc mylambdafunction.js -t 10 
 
 # Execute function overriding lambda function default handler 'handler' name.
-> laloc mylambdafunction.js -h myhandler 
+laloc mylambdafunction.js -h myhandler 
 ```
 ### Notes: ###
 * Developed and tested on MAC OS, not tested on MS Windows yet (help welcome)
