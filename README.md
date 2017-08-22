@@ -43,6 +43,19 @@ Options:
   --help         Show help                                             
 ```
 
+### Usage Tips: ###
+
+If you get the message:
+```
+--> Local lambda function file'xyz.js' not found, or contains error
+```
+Check if the file xyz.js exists and the name is not mispelled or run the command bellow to show any javascript syntax errors. 
+
+```bash
+$ node xyz.js
+``` 
+
+
 ### Examples: ###
 ```bash
 # Execute lambda function locally loading mylambda function.json event data file authomaticaly.
